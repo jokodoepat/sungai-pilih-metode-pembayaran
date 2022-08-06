@@ -1,0 +1,61 @@
+{
+    "pilihMetodePembayaran": {
+        "responseCode": "RSx700013",
+        "responseMessage": "Ferizy Service - RsRsPaymentOptionRf Sukses",
+        "responseReferenceNo": "01b5014719fe41fb99fa0705e217caac",
+        "pilihMetodePembayaran": {
+            "id": "pilih-metode-pembayaran",
+            "name": "Pilih Metode Pembayaran",
+            "data": [
+                {
+                    "id": "e-money",
+                    "name": "E-Money",
+                    "detail": [
+                        {
+                            "set_id": "stg210726142606",
+                            "provider": "ESPAY",
+                            "methode": "e-Money",
+                            "channel": "DANA PAY",
+                            "channel_id": "pychn210726142335",
+                            "bank": "BANK MANDIRI",
+                            "admin_fee": "0"
+                        },
+                        {
+                            "set_id": "stg210725204251",
+                            "provider": "ESPAY",
+                            "methode": "e-Money",
+                            "channel": "Link Aja Applink",
+                            "channel_id": "pychn210725203732",
+                            "bank": "BANK MANDIRI",
+                            "admin_fee": "0"
+                        }
+                    ]
+                },
+                {
+                    "id": "virtual-account",
+                    "name": "Virtual Account",
+                    "detail": [
+                        {
+                            "set_id": "stg210705010806",
+                            "provider": "ESPAY",
+                            "methode": "Virtual Account",
+                            "channel": "BCA VA Online",
+                            "channel_id": "pychn210628233843",
+                            "bank": "BANK BCA",
+                            "admin_fee": "0"
+                        },
+                        {
+                            "set_id": "stg210630015714",
+                            "provider": "ESPAY",
+                            "methode": "Virtual Account",
+                            "channel": "BII VA",
+                            "channel_id": "pychn210630015611",
+                            "bank": "BANK MAYBANK (BII)",
+                            "admin_fee": "0"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
